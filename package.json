@@ -8,6 +8,8 @@
     "lookup:email": "node src/sendgrid.js"
   },
   "dependencies": {
+    "@sendgrid/client": "^7.4.2",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "twilio": "^3.58.0"
   }
